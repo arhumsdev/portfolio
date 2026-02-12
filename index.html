@@ -1,243 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Arhum Shahid | AI & Analytics Systems Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Arhum Shahid | Hybrid AI & Systems Engineer</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #0a0a0a;
-      color: #e5e5e5;
-      line-height: 1.6;
-    }
+<script src="https://cdn.tailwindcss.com"></script>
 
-    h1, h2, h3 { margin: 0 0 20px 0; }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    section {
-      padding: 100px 20px;
-      max-width: 1150px;
-      margin: auto;
-    }
-
-    .hero {
-      text-align: center;
-      padding-top: 160px;
-      padding-bottom: 160px;
-      background: radial-gradient(circle at top, rgba(99,102,241,0.25), transparent 65%);
-    }
-
-    .hero h1 { font-size: 64px; letter-spacing: -1px; }
-
-    .tagline {
-      font-size: 22px;
-      color: #818cf8;
-      font-weight: 600;
-      margin-bottom: 20px;
-    }
-
-    .hero p.main {
-      font-size: 20px;
-      max-width: 900px;
-      margin: 20px auto;
-      color: #d4d4d4;
-    }
-
-    .highlight {
-      color: #a5b4fc;
-      font-weight: 600;
-    }
-
-    .buttons a {
-      display: inline-block;
-      margin: 10px;
-      padding: 14px 28px;
-      border-radius: 14px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.2s ease;
-    }
-
-    .primary { background: #6366f1; color: black; }
-    .secondary { border: 1px solid #333; color: #e5e5e5; }
-    .secondary:hover { border-color: #6366f1; }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 30px;
-    }
-
-    .card {
-      background: #111;
-      border: 1px solid #222;
-      padding: 30px;
-      border-radius: 20px;
-      transition: 0.2s ease;
-    }
-
-    .card:hover { border-color: #6366f1; }
-
-    ul { padding-left: 20px; }
-
-    footer {
-      text-align: center;
-      padding: 60px 20px;
-      border-top: 1px solid #222;
-      color: #777;
-    }
-  </style>
+<style>
+body { font-family: 'Inter', sans-serif; }
+.glow { text-shadow: 0 0 60px rgba(99,102,241,.55); }
+.glass { background: rgba(20,20,30,.6); backdrop-filter: blur(16px); }
+.card { background: linear-gradient(180deg, rgba(40,40,60,.6), rgba(10,10,20,.9)); }
+.grid-bg { background-image: linear-gradient(rgba(99,102,241,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,.08) 1px, transparent 1px); background-size: 60px 60px; }
+.neon-border { box-shadow: inset 0 0 0 1px rgba(99,102,241,.4), 0 0 40px rgba(99,102,241,.15); }
+</style>
 </head>
 
-<body>
+<body class="bg-neutral-950 text-neutral-200 antialiased overflow-x-hidden">
 
-  <!-- HERO -->
-  <section class="hero">
-    <h1>Arhum Shahid</h1>
-    <div class="tagline">AI • Analytics • Systems Engineering</div>
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 glass border-b border-neutral-800">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span class="font-bold tracking-wide">Arhum Shahid</span>
+    <div class="flex gap-8 text-sm text-neutral-400">
+      <a href="#mission" class="hover:text-white">Mission</a>
+      <a href="#projects" class="hover:text-white">Systems</a>
+      <a href="#experience" class="hover:text-white">Experience</a>
+      <a href="#stack" class="hover:text-white">Stack</a>
+      <a href="mailto:arhums.dev@gmail.com" class="hover:text-white">Contact</a>
+    </div>
+  </div>
+</nav>
 
-    <p class="main">
-      Hybrid AI Engineer & Data Scientist with a <span class="highlight">4.0 GPA in Computer Science (Data Science)</span>,
-      specializing in production-ready LLM systems, scalable analytics pipelines, and measurable business impact.
-      I build intelligent systems that move from experimentation to deployment—clean architecture, reliable metrics,
-      and executive-ready insights.
+<!-- HERO -->
+<section class="min-h-screen grid-bg flex items-center justify-center px-6">
+  <div class="max-w-6xl text-center mt-32">
+    <h1 class="text-6xl md:text-8xl font-black mb-8 glow">
+      Hybrid AI & Analytics<br/>Systems Engineer
+    </h1>
+
+    <p class="text-2xl text-neutral-400 mb-10">
+      Production-Grade LLM Systems • Scalable Data Infrastructure • Executive-Level Analytics
     </p>
 
-    <p class="main">
-      My focus: <span class="highlight">low-risk, high-leverage AI infrastructure</span> — retrieval-augmented generation,
-      multi-source analytics pipelines, segmentation modeling, and KPI frameworks that companies can trust in production.
+    <p class="max-w-4xl mx-auto text-neutral-300 leading-relaxed mb-10">
+      I design and deploy intelligent systems that move beyond experimentation into measurable production impact.
+      With a 4.0 GPA in Computer Science (Data Science), I specialize in Retrieval-Augmented Generation,
+      multi-agent orchestration, predictive modeling, and full-stack analytics pipelines.
     </p>
 
-    <div class="buttons">
-      <a href="https://www.linkedin.com/in/arhum-shahid-539710245/" target="_blank" class="primary">LinkedIn</a>
-      <a href="https://github.com/arhumsdev" target="_blank" class="secondary">GitHub</a>
-      <a href="mailto:arhums.dev@gmail.com" class="secondary">Contact</a>
+    <p class="max-w-4xl mx-auto text-neutral-300 leading-relaxed mb-14">
+      My work focuses on low-risk AI integration — building structured pipelines,
+      validated model workflows, and scalable architectures that transform unstructured
+      data into reliable, high-leverage business outcomes.
+    </p>
+
+    <div class="flex justify-center flex-wrap gap-6">
+      <a href="#projects" class="px-8 py-4 rounded-2xl bg-indigo-500 text-black font-semibold">View Systems</a>
+      <a href="https://www.linkedin.com/in/arhum-shahid-539710245" target="_blank" class="px-8 py-4 rounded-2xl border border-neutral-700">LinkedIn</a>
+      <a href="https://github.com/arhumsdev" target="_blank" class="px-8 py-4 rounded-2xl border border-neutral-700">GitHub</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CORE CAPABILITIES -->
-  <section>
-    <h2>Core Capabilities</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>LLM & Applied AI Systems</h3>
-        <p>RAG pipelines (FAISS), prompt evaluation, agent orchestration, transformer fine-tuning, sentiment modeling, and OpenAI function-calling workflows.</p>
-      </div>
-
-      <div class="card">
-        <h3>Analytics Engineering</h3>
-        <p>End-to-end SQL pipelines, cohort analysis, lifecycle metrics, multi-source integration, KPI definition, validation frameworks.</p>
-      </div>
-
-      <div class="card">
-        <h3>Product & Growth Analytics</h3>
-        <p>Funnel modeling, A/B testing, segmentation engines, performance optimization, executive-level reporting narratives.</p>
-      </div>
-
-      <div class="card">
-        <h3>Production Infrastructure</h3>
-        <p>Async APIs, scalable dashboards (Power BI / Tableau), cloud ML workflows, reproducible model pipelines.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROFESSIONAL EXPERIENCE -->
-  <section>
-    <h2>Professional Experience</h2>
-
-    <div class="card">
-      <h3>Data Science Engineer — UC Riverside</h3>
-      <p><em>Jul 2024 – Jun 2025</em></p>
-      <ul>
-        <li>Designed full analytics ecosystems tracking engagement, retention, and lifecycle progression across digital platforms.</li>
-        <li>Built automated executive dashboards reducing manual reporting workload by 40%.</li>
-        <li>Developed cohort analysis pipelines improving strategic targeting and optimization.</li>
-        <li>Established validation & documentation standards for reliable, scalable analytics infrastructure.</li>
-      </ul>
-    </div>
-
-    <br>
-
-    <div class="card">
-      <h3>Software Engineer Intern — FogCity Lab</h3>
-      <p><em>Dec 2023 – Feb 2024</em></p>
-      <ul>
-        <li>Collaborated on analytics instrumentation and event-tracking schemas for customer-facing applications.</li>
-        <li>Built dashboards monitoring feature usage, CRM performance, and customer behavior patterns.</li>
-        <li>Supported measurement strategy for data-driven product improvements.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- AI & ANALYTICS PROJECTS -->
-  <section>
-    <h2>Selected AI & Analytics Systems</h2>
-
-    <div class="grid">
-
-      <div class="card">
-        <h3>LLM-Powered Customer Support Automation</h3>
-        <p>Processed 2M+ support interactions using RAG architecture (FAISS + LangChain) to deliver contextual responses and reduce manual workload.</p>
-        <ul>
-          <li>Reduced human review time by 40%</li>
-          <li>Improved resolution speed by 25%</li>
-          <li>Integrated SQL + Python + LLM pipelines</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Grant Matchmaker (ML Recommendation Engine)</h3>
-        <p>Built ensemble ML models to match applicants to relevant grants using structured + text-based feature engineering.</p>
-        <ul>
-          <li>Improved match precision via clustering & regression blending</li>
-          <li>Designed reproducible training pipelines</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Segmentation & Cohort Modeling System</h3>
-        <p>Developed clustering-based targeting models and lifecycle segmentation frameworks for engagement optimization.</p>
-        <ul>
-          <li>Implemented k-means with statistical validation</li>
-          <li>Improved targeting efficiency & KPI visibility</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Sentiment Analysis of Economic News</h3>
-        <p>NLP pipeline analyzing inflation-related articles using transformer embeddings to measure macro sentiment shifts.</p>
-        <ul>
-          <li>Fine-tuned transformer models</li>
-          <li>Visualized sentiment trends via interactive dashboards</li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- TECH STACK -->
-  <section>
-    <h2>Technical Stack</h2>
-    <div class="card">
-      <p>
-        <strong>Languages:</strong> Python, SQL, JavaScript<br>
-        <strong>AI/ML:</strong> Scikit-learn, Transformers, LangChain, FAISS, NLP, Clustering<br>
-        <strong>Analytics:</strong> Power BI, Tableau, Cohort Modeling, KPI Frameworks<br>
-        <strong>Data:</strong> ETL Pipelines, Multi-source Integration, Validation Systems<br>
-        <strong>Concepts:</strong> RAG, Agent Orchestration, A/B Testing, Lifecycle Metrics
+<!-- MISSION -->
+<section id="mission" class="max-w-7xl mx-auto px-6 py-32">
+  <div class="grid md:grid-cols-2 gap-16 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-6">Mission</h2>
+      <p class="text-neutral-300 leading-relaxed mb-6">
+        My mission is to engineer AI systems that are reliable, interpretable, and scalable.
+        I approach AI as a full-stack discipline — combining data engineering, modeling,
+        orchestration, infrastructure, and executive-level insight delivery.
+      </p>
+      <p class="text-neutral-300 leading-relaxed">
+        Whether deploying LLM-powered agents, designing analytics ecosystems,
+        or implementing segmentation engines, I prioritize measurable impact,
+        operational stability, and long-term maintainability.
       </p>
     </div>
-  </section>
 
-  <footer>
-    © 2026 Arhum Shahid — Hybrid AI & Analytics Systems Engineer
-  </footer>
+    <div class="card neon-border rounded-3xl p-10">
+      <ul class="space-y-4 text-neutral-300">
+        <li>• LLM Agents & Multi-Agent Systems</li>
+        <li>• Retrieval-Augmented Generation (RAG)</li>
+        <li>• Predictive Modeling & Segmentation</li>
+        <li>• Analytics Engineering & KPI Systems</li>
+        <li>• Cloud-Native AI Infrastructure</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="max-w-7xl mx-auto px-6 py-32">
+<h2 class="text-4xl font-bold mb-20">Flagship Systems</h2>
+
+<div class="space-y-16">
+
+<div class="card neon-border rounded-3xl p-12">
+<h3 class="text-3xl font-semibold mb-4">LLM-Powered Customer Support Automation</h3>
+<p class="text-neutral-400 mb-6">LLMs • RAG • LangChain • FAISS • SparkML</p>
+<p class="text-neutral-300 leading-relaxed mb-4">
+Architected a Retrieval-Augmented Generation pipeline integrating transformer models,
+vector databases, and prompt orchestration to process millions of historical interactions.
+</p>
+<p class="text-neutral-300 leading-relaxed">
+Reduced manual workload by 40%, improved response resolution speed by 25%,
+and deployed multi-agent workflows for summarization, routing, and escalation.
+</p>
+</div>
+
+<div class="card neon-border rounded-3xl p-12">
+<h3 class="text-3xl font-semibold mb-4">Grant Matchmaker Recommendation Engine</h3>
+<p class="text-neutral-400 mb-6">Ensemble Models • Feature Engineering • Python • R</p>
+<p class="text-neutral-300 leading-relaxed">
+Developed an intelligent recommendation system matching nonprofits with optimal funding
+opportunities using ensemble learning and interpretable modeling frameworks.
+</p>
+</div>
+
+<div class="card neon-border rounded-3xl p-12">
+<h3 class="text-3xl font-semibold mb-4">Advanced eCommerce Lifecycle Analytics</h3>
+<p class="text-neutral-400 mb-6">SQL • Cohort Analysis • A/B Testing • Dashboard Automation</p>
+<p class="text-neutral-300 leading-relaxed">
+Built full-funnel KPI systems tracking acquisition, retention, and conversion.
+Designed cohort-based segmentation models and automated executive dashboards.
+</p>
+</div>
+
+<div class="card neon-border rounded-3xl p-12">
+<h3 class="text-3xl font-semibold mb-4">AI-Driven Humanitarian Intelligence Platform</h3>
+<p class="text-neutral-400 mb-6">Power BI • Data Engineering • LLM Summarization</p>
+<p class="text-neutral-300 leading-relaxed">
+Engineered data pipelines spanning 150+ institutions and integrated AI-generated
+insight narratives to assist leadership decision-making.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="max-w-7xl mx-auto px-6 py-32">
+<h2 class="text-4xl font-bold mb-20">Experience</h2>
+
+<div class="space-y-20">
+
+<div>
+<h3 class="text-3xl font-semibold">Data Science Engineer — UC Riverside</h3>
+<p class="text-neutral-400 mb-4">2024 – 2025</p>
+<p class="text-neutral-300 leading-relaxed">
+Led development of AI agents leveraging GPT, Claude, and Gemini models for structured
+data extraction, contextual summarization, and analytics automation.
+Designed RAG pipelines, embedding systems, and multi-agent architectures
+improving insight generation efficiency by over 40%.
+</p>
+</div>
+
+<div>
+<h3 class="text-3xl font-semibold">Data Science Intern — Takmil Foundation</h3>
+<p class="text-neutral-400 mb-4">2024</p>
+<p class="text-neutral-300 leading-relaxed">
+Built predictive and clustering models across education datasets,
+automated reporting pipelines, and generated strategic insights
+to optimize funding allocation and performance tracking.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- STACK -->
+<section id="stack" class="max-w-7xl mx-auto px-6 py-32">
+<h2 class="text-4xl font-bold mb-20">Technology Stack</h2>
+
+<div class="grid md:grid-cols-2 gap-10 text-neutral-300">
+
+<div class="card neon-border rounded-2xl p-6">
+<strong>Languages:</strong><br/>
+Python • SQL • C++ • R • JavaScript
+</div>
+
+<div class="card neon-border rounded-2xl p-6">
+<strong>AI & ML:</strong><br/>
+LLMs • RAG • LangChain • FAISS • Transformers • PyTorch • SparkML
+</div>
+
+<div class="card neon-border rounded-2xl p-6">
+<strong>Analytics:</strong><br/>
+Power BI • Tableau • Cohort Modeling • KPI Systems • A/B Testing
+</div>
+
+<div class="card neon-border rounded-2xl p-6">
+<strong>Infrastructure:</strong><br/>
+AWS • GCP • Docker • Kubernetes • Data Pipelines
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-neutral-800 py-16 text-center text-neutral-500">
+Fremont, CA • Hybrid AI & Systems Engineer • © 2026 Arhum Shahid
+</footer>
 
 </body>
 </html>
-
-
-
-
